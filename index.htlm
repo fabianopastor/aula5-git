@@ -6,3 +6,7 @@
         [multiple]="true">
 </td-data-table>
 
+        [(ngModel)]="selectedRows"
+        [selectable]="true"
+        [multiple]="true">
+</td-data-table>
